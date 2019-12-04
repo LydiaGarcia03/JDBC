@@ -1,0 +1,25 @@
+CREATE DATABASE IF NOT EXISTS ex05;
+
+USE ex05;
+
+CREATE TABLE basquete(
+    votos INT NOT NULL
+) ENGINE = InnoDB DEFAULT CHARSET 'utf8';
+
+CREATE TABLE bike(
+    votos INT NOT NULL
+) ENGINE = InnoDB DEFAULT CHARSET 'utf8';
+
+CREATE TABLE futebol(
+    votos INT NOT NULL
+) ENGINE = InnoDB DEFAULT CHARSET 'utf8';
+
+CREATE TABLE natacao(
+    votos INT NOT NULL
+) ENGINE = InnoDB DEFAULT CHARSET 'utf8';
+
+CREATE TABLE academia(
+    votos INT NOT NULL
+) ENGINE = InnoDB DEFAULT CHARSET 'utf8';
+
+SELECT * FROM basquete;
